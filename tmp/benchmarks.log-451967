@@ -1,0 +1,24 @@
+ERROR: LoadError: The following package names could not be resolved:
+ * DiffEqBenchmarks (not found in project, manifest or registry)
+Please specify by known `name=uuid`.
+Stacktrace:
+ [1] pkgerror(::String) at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.1/Pkg/src/Types.jl:120
+ [2] #ensure_resolved#72(::Bool, ::Function, ::Pkg.Types.EnvCache, ::Array{Pkg.Types.PackageSpec,1}) at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.1/Pkg/src/Types.jl:1010
+ [3] #ensure_resolved at ./none:0 [inlined]
+ [4] #add_or_develop#17(::Symbol, ::Bool, ::Base.Iterators.Pairs{Union{},Union{},Tuple{},NamedTuple{(),Tuple{}}}, ::Function, ::Pkg.Types.Context, ::Array{Pkg.Types.PackageSpec,1}) at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.1/Pkg/src/API.jl:54
+ [5] #add_or_develop at ./none:0 [inlined]
+ [6] #add_or_develop#16 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.1/Pkg/src/API.jl:36 [inlined]
+ [7] #add_or_develop at ./none:0 [inlined]
+ [8] #add_or_develop#13 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.1/Pkg/src/API.jl:34 [inlined]
+ [9] #add_or_develop at ./none:0 [inlined]
+ [10] #add_or_develop#12(::Base.Iterators.Pairs{Symbol,Symbol,Tuple{Symbol},NamedTuple{(:mode,),Tuple{Symbol}}}, ::Function, ::String) at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.1/Pkg/src/API.jl:33
+ [11] #add_or_develop at ./none:0 [inlined]
+ [12] #add#22 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.1/Pkg/src/API.jl:64 [inlined]
+ [13] add(::String) at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.1/Pkg/src/API.jl:64
+ [14] top-level scope at none:0
+ [15] include at ./boot.jl:326 [inlined]
+ [16] include_relative(::Module, ::String) at ./loading.jl:1038
+ [17] include(::Module, ::String) at ./sysimg.jl:29
+ [18] exec_options(::Base.JLOptions) at ./client.jl:267
+ [19] _start() at ./client.jl:436
+in expression starting at /home/gridsan/collinw/UROP/benchmarks.jl:1

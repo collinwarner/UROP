@@ -1,0 +1,1022 @@
+[ Info: Writing to file /home/gridsan/collinw/.julia/packages/DiffEqBenchmarks/YxacI/src/../script/NonStiffODE/FitzhughNagumo_wpd.jl
+[ Info: Weaving chunk 1 from line 10
+┌ Warning: ERROR: ArgumentError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: LoadError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: Error requiring Plots from Weave:
+│ LoadError: ArgumentError: Package Weave not found in current path:
+│ - Run `import Pkg; Pkg.add("Weave")` to install the Weave package.
+│ 
+│ Stacktrace:
+│  [1] require(::Module, ::Symbol) at ./loading.jl:823
+│  [2] include at ./boot.jl:326 [inlined]
+│  [3] include_relative(::Module, ::String) at ./loading.jl:1038
+│  [4] include(::Module, ::String) at ./sysimg.jl:29
+│  [5] top-level scope at none:0
+│  [6] eval at ./boot.jl:328 [inlined]
+│  [7] eval at /home/gridsan/collinw/.julia/packages/Weave/UOxmI/src/Weave.jl:1 [inlined]
+│  [8] (::getfield(Weave, Symbol("##3#9")))() at /state/partition1/llgrid/pkg/julia/julia-1.1.1/local/share/julia/packages/Requires/9Jse8/src/require.jl:67
+│  [9] err(::getfield(Weave, Symbol("##3#9")), ::Module, ::String) at /state/partition1/llgrid/pkg/julia/julia-1.1.1/local/share/julia/packages/Requires/9Jse8/src/require.jl:38
+│  [10] #2 at /state/partition1/llgrid/pkg/julia/julia-1.1.1/local/share/julia/packages/Requires/9Jse8/src/require.jl:66 [inlined]
+│  [11] withpath(::getfield(Weave, Symbol("##2#8")), ::String) at /state/partition1/llgrid/pkg/julia/julia-1.1.1/local/share/julia/packages/Requires/9Jse8/src/require.jl:28
+│  [12] (::getfield(Weave, Symbol("##1#7")))() at /state/partition1/llgrid/pkg/julia/julia-1.1.1/local/share/julia/packages/Requires/9Jse8/src/require.jl:65
+│  [13] #invokelatest#1 at ./essentials.jl:742 [inlined]
+│  [14] invokelatest at ./essentials.jl:741 [inlined]
+│  [15] #3 at /state/partition1/llgrid/pkg/julia/julia-1.1.1/local/share/julia/packages/Requires/9Jse8/src/require.jl:19 [inlined]
+│  [16] iterate at ./generator.jl:47 [inlined]
+│  [17] _collect(::Array{Function,1}, ::Base.Generator{Array{Function,1},getfield(Requires, Symbol("##3#4"))}, ::Base.EltypeUnknown, ::Base.HasShape{1}) at ./array.jl:619
+│  [18] map at ./array.jl:548 [inlined]
+│  [19] loadpkg(::Base.PkgId) at /state/partition1/llgrid/pkg/julia/julia-1.1.1/local/share/julia/packages/Requires/9Jse8/src/require.jl:19
+│  [20] #invokelatest#1 at ./essentials.jl:742 [inlined]
+│  [21] invokelatest at ./essentials.jl:741 [inlined]
+│  [22] require(::Base.PkgId) at ./loading.jl:861
+│  [23] require(::Module, ::Symbol) at ./loading.jl:853
+│  [24] eval at ./boot.jl:328 [inlined]
+│  [25] capture_output(::Expr, ::Module, ::Bool, ::Bool, ::Bool, ::Bool) at /home/gridsan/collinw/.julia/packages/Weave/UOxmI/src/run.jl:230
+│  [26] run_code(::Weave.CodeChunk, ::Weave.Report, ::Module) at /home/gridsan/collinw/.julia/packages/Weave/UOxmI/src/run.jl:208
+│  [27] eval_chunk(::Weave.CodeChunk, ::Weave.Report, ::Module) at /home/gridsan/collinw/.julia/packages/Weave/UOxmI/src/run.jl:289
+│  [28] run_chunk(::Weave.CodeChunk, ::Weave.WeaveDoc, ::Weave.Report, ::Module) at /home/gridsan/collinw/.julia/packages/Weave/UOxmI/src/run.jl:130
+│  [29] #run#34(::String, ::Symbol, ::String, ::Dict{Symbol,String}, ::String, ::Nothing, ::String, ::Symbol, ::Bool, ::typeof(run), ::Weave.WeaveDoc) at /home/gridsan/collinw/.julia/packages/Weave/UOxmI/src/run.jl:94
+│  [30] (::getfield(Base, Symbol("#kw##run")))(::NamedTuple{(:doctype, :mod, :out_path, :args, :fig_path, :fig_ext, :cache_path, :cache, :throw_errors),Tuple{String,Symbol,String,Dict{Symbol,String},String,Nothing,String,Symbol,Bool}}, ::typeof(run), ::Weave.WeaveDoc) at ./none:0
+│  [31] #weave#16(::String, ::Symbol, ::String, ::Dict{Symbol,String}, ::Symbol, ::String, ::Nothing, ::String, ::Symbol, ::Bool, ::Nothing, ::Nothing, ::Nothing, ::Array{String,1}, ::String, ::typeof(Weave.weave), ::String) at /home/gridsan/collinw/.julia/packages/Weave/UOxmI/src/Weave.jl:121
+│  [32] #weave at ./none:0 [inlined]
+│  [33] weave_file(::String, ::String, ::NTuple{4,Symbol}) at /home/gridsan/collinw/.julia/packages/DiffEqBenchmarks/YxacI/src/DiffEqBenchmarks.jl:21
+│  [34] weave_file at /home/gridsan/collinw/.julia/packages/DiffEqBenchmarks/YxacI/src/DiffEqBenchmarks.jl:8 [inlined]
+│  [35] weave_folder(::String) at /home/gridsan/collinw/.julia/packages/DiffEqBenchmarks/YxacI/src/DiffEqBenchmarks.jl:54
+│  [36] top-level scope at none:0
+│  [37] include at ./boot.jl:326 [inlined]
+│  [38] include_relative(::Module, ::String) at ./loading.jl:1038
+│  [39] include(::Module, ::String) at ./sysimg.jl:29
+│  [40] exec_options(::Base.JLOptions) at ./client.jl:267
+│  [41] _start() at ./client.jl:436
+│ in expression starting at /home/gridsan/collinw/.julia/packages/Weave/UOxmI/src/plots.jl:3
+└ @ Requires /state/partition1/llgrid/pkg/julia/julia-1.1.1/local/share/julia/packages/Requires/9Jse8/src/require.jl:40
+[ Info: Weaving chunk 2 from line 30
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 3 from line 36
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 4 from line 50
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 5 from line 63
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 6 from line 75
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 7 from line 90
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 8 from line 106
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 9 from line 119
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 10 from line 131
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 11 from line 147
+[ Info: Report weaved to /home/gridsan/collinw/.julia/packages/DiffEqBenchmarks/YxacI/src/../html/NonStiffODE/FitzhughNagumo_wpd.html
+[ Info: Weaving chunk 1 from line 10
+┌ Warning: ERROR: ArgumentError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: LoadError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 2 from line 30
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 3 from line 36
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 4 from line 50
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 5 from line 63
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 6 from line 75
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 7 from line 90
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 8 from line 106
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 9 from line 119
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 10 from line 131
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 11 from line 147
+[ Info: Weaved code to /home/gridsan/collinw/.julia/packages/DiffEqBenchmarks/YxacI/src/../pdf/NonStiffODE/FitzhughNagumo_wpd.tex. Running xelatex
+┌ Warning: Error converting document to pdf. Try running latex manually
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/pandoc.jl:121
+[ Info: Writing to file /home/gridsan/collinw/.julia/packages/DiffEqBenchmarks/YxacI/src/../script/NonStiffODE/LotkaVolterra_wpd.jl
+[ Info: Weaving chunk 1 from line 10
+┌ Warning: ERROR: ArgumentError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: LoadError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 2 from line 29
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 3 from line 35
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 4 from line 52
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 5 from line 66
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 6 from line 78
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 7 from line 94
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 8 from line 112
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 9 from line 125
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 10 from line 137
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 11 from line 154
+[ Info: Report weaved to /home/gridsan/collinw/.julia/packages/DiffEqBenchmarks/YxacI/src/../html/NonStiffODE/LotkaVolterra_wpd.html
+[ Info: Weaving chunk 1 from line 10
+┌ Warning: ERROR: ArgumentError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: LoadError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 2 from line 29
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 3 from line 35
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 4 from line 52
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 5 from line 66
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 6 from line 78
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 7 from line 94
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 8 from line 112
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 9 from line 125
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 10 from line 137
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 11 from line 154
+[ Info: Weaved code to /home/gridsan/collinw/.julia/packages/DiffEqBenchmarks/YxacI/src/../pdf/NonStiffODE/LotkaVolterra_wpd.tex. Running xelatex
+┌ Warning: Error converting document to pdf. Try running latex manually
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/pandoc.jl:121
+[ Info: Writing to file /home/gridsan/collinw/.julia/packages/DiffEqBenchmarks/YxacI/src/../script/NonStiffODE/Pleiades_wpd.jl
+[ Info: Weaving chunk 1 from line 6
+┌ Warning: ERROR: ArgumentError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 2 from line 38
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 3 from line 48
+[ Info: Weaving chunk 4 from line 54
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 5 from line 66
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 6 from line 79
+[ Info: Weaving chunk 7 from line 85
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 8 from line 96
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 9 from line 112
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 10 from line 127
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 11 from line 140
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 12 from line 152
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 13 from line 168
+[ Info: Report weaved to /home/gridsan/collinw/.julia/packages/DiffEqBenchmarks/YxacI/src/../html/NonStiffODE/Pleiades_wpd.html
+[ Info: Weaving chunk 1 from line 6
+┌ Warning: ERROR: ArgumentError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 2 from line 38
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 3 from line 48
+[ Info: Weaving chunk 4 from line 54
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 5 from line 66
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 6 from line 79
+[ Info: Weaving chunk 7 from line 85
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 8 from line 96
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 9 from line 112
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 10 from line 127
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 11 from line 140
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 12 from line 152
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 13 from line 168
+[ Info: Weaved code to /home/gridsan/collinw/.julia/packages/DiffEqBenchmarks/YxacI/src/../pdf/NonStiffODE/Pleiades_wpd.tex. Running xelatex
+┌ Warning: Error converting document to pdf. Try running latex manually
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/pandoc.jl:121
+[ Info: Writing to file /home/gridsan/collinw/.julia/packages/DiffEqBenchmarks/YxacI/src/../script/NonStiffODE/RigidBody_wpd.jl
+[ Info: Weaving chunk 1 from line 6
+┌ Warning: ERROR: ArgumentError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: LoadError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 2 from line 28
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 3 from line 32
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 4 from line 47
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 5 from line 59
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 6 from line 77
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 7 from line 90
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 8 from line 102
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 9 from line 119
+[ Info: Report weaved to /home/gridsan/collinw/.julia/packages/DiffEqBenchmarks/YxacI/src/../html/NonStiffODE/RigidBody_wpd.html
+[ Info: Weaving chunk 1 from line 6
+┌ Warning: ERROR: ArgumentError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: LoadError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 2 from line 28
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 3 from line 32
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 4 from line 47
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 5 from line 59
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 6 from line 77
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 7 from line 90
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 8 from line 102
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 9 from line 119
+[ Info: Weaved code to /home/gridsan/collinw/.julia/packages/DiffEqBenchmarks/YxacI/src/../pdf/NonStiffODE/RigidBody_wpd.tex. Running xelatex
+┌ Warning: Error converting document to pdf. Try running latex manually
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/pandoc.jl:121
+[ Info: Writing to file /home/gridsan/collinw/.julia/packages/DiffEqBenchmarks/YxacI/src/../script/NonStiffODE/ThreeBody_wpd.jl
+[ Info: Weaving chunk 1 from line 6
+┌ Warning: ERROR: ArgumentError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 2 from line 39
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 3 from line 45
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 4 from line 57
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 5 from line 69
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 6 from line 81
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 7 from line 95
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 8 from line 108
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 9 from line 121
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 10 from line 140
+[ Info: Weaving chunk 11 from line 147
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 12 from line 166
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 13 from line 179
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 14 from line 191
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 15 from line 208
+[ Info: Report weaved to /home/gridsan/collinw/.julia/packages/DiffEqBenchmarks/YxacI/src/../html/NonStiffODE/ThreeBody_wpd.html
+[ Info: Weaving chunk 1 from line 6
+┌ Warning: ERROR: ArgumentError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 2 from line 39
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 3 from line 45
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 4 from line 57
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 5 from line 69
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 6 from line 81
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 7 from line 95
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 8 from line 108
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 9 from line 121
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 10 from line 140
+[ Info: Weaving chunk 11 from line 147
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 12 from line 166
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 13 from line 179
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 14 from line 191
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 15 from line 208
+[ Info: Weaved code to /home/gridsan/collinw/.julia/packages/DiffEqBenchmarks/YxacI/src/../pdf/NonStiffODE/ThreeBody_wpd.tex. Running xelatex
+┌ Warning: Error converting document to pdf. Try running latex manually
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/pandoc.jl:121
+[ Info: Writing to file /home/gridsan/collinw/.julia/packages/DiffEqBenchmarks/YxacI/src/../script/NonStiffODE/linear_wpd.jl
+[ Info: Weaving chunk 1 from line 25
+┌ Warning: ERROR: ArgumentError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 2 from line 54
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 3 from line 70
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 4 from line 90
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 5 from line 111
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 6 from line 129
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 7 from line 150
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 8 from line 175
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 9 from line 189
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 10 from line 203
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 11 from line 223
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 12 from line 236
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 13 from line 248
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 14 from line 270
+[ Info: Report weaved to /home/gridsan/collinw/.julia/packages/DiffEqBenchmarks/YxacI/src/../html/NonStiffODE/linear_wpd.html
+[ Info: Weaving chunk 1 from line 25
+┌ Warning: ERROR: ArgumentError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 2 from line 54
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 3 from line 70
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 4 from line 90
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 5 from line 111
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 6 from line 129
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 7 from line 150
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 8 from line 175
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 9 from line 189
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 10 from line 203
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 11 from line 223
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 12 from line 236
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 13 from line 248
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+┌ Warning: ERROR: UndefVarError occurred, including output in Weaved document
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/run.jl:243
+[ Info: Weaving chunk 14 from line 270
+[ Info: Weaved code to /home/gridsan/collinw/.julia/packages/DiffEqBenchmarks/YxacI/src/../pdf/NonStiffODE/linear_wpd.tex. Running xelatex
+┌ Warning: Error converting document to pdf. Try running latex manually
+└ @ Weave ~/.julia/packages/Weave/UOxmI/src/pandoc.jl:121
+Building NonStiffODE/FitzhughNagumo_wpd.jmd)
+File: FitzhughNagumo_wpd.jmd
+Building Script
+Building HTML
+Building PDF
+Building NonStiffODE/LotkaVolterra_wpd.jmd)
+File: LotkaVolterra_wpd.jmd
+Building Script
+Building HTML
+Building PDF
+Building NonStiffODE/Pleiades_wpd.jmd)
+File: Pleiades_wpd.jmd
+Building Script
+Building HTML
+Building PDF
+Building NonStiffODE/RigidBody_wpd.jmd)
+File: RigidBody_wpd.jmd
+Building Script
+Building HTML
+Building PDF
+Building NonStiffODE/ThreeBody_wpd.jmd)
+File: ThreeBody_wpd.jmd
+Building Script
+Building HTML
+Building PDF
+Building NonStiffODE/linear_wpd.jmd)
+File: linear_wpd.jmd
+Building Script
+Building HTML
+Building PDF
